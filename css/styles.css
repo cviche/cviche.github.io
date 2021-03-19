@@ -1,17 +1,16 @@
 * {
   border-style: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   color: white;
   background-color: 5f5f5f;
+  font-family: "Questrial-Regular";
 }
 
 .container {
-  /* max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px; */
   background-color: #5d5b5b;
 }
 
@@ -41,10 +40,13 @@ body {
 
 .nav-element {
   text-decoration: none;
-  border: 0.15rem solid white;
+  border: 0.1rem solid white;
   padding: 0.3rem;
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   color: white;
+}
+.nav-element:hover {
+  background-color: #949393;
 }
 
 .header-nav a {
@@ -69,11 +71,10 @@ body {
 }
 
 .logo:hover {
-  color: 0f0;
+  color: blue;
   background-color: blue;
 }
 
-/* */
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -82,23 +83,54 @@ body {
 
 /* About me styling */
 .about-section {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: teal;
+  /* background-color: teal; */
   display: flex;
-  align-items: center;
-  flex-grow: initial;
   justify-content: center;
 }
 
 .left-about {
-  background-color: rgb(243, 44, 233);
+  /* background-color: rgb(243, 44, 233); */
   width: 35rem;
   height: 25rem;
 }
 
 .right-about {
-  background-color: rgb(183, 243, 44);
+  /* background-color: rgb(183, 243, 44); */
   width: 35rem;
-  height: 45rem;
+  height: 40rem;
+  margin-left: 4rem;
+}
+
+/* Skills styling */
+.skills {
+  background-color: khaki;
+
+  height: 50rem;
+}
+
+.skills-title {
+  background-color: #444444;
+  text-align: center;
+  height: 10rem;
+}
+.technologies {
+  display: flex;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.tech-item {
+  width: 20rem;
+  height: 15rem;
+  /* background-color: mediumslateblue; */
+  text-align: center;
+}
+
+.tech-size {
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
 }
