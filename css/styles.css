@@ -71,8 +71,7 @@ body {
 }
 
 .logo:hover {
-  color: blue;
-  background-color: blue;
+  fill: mediumslateblue;
 }
 
 .main-header {
@@ -102,20 +101,27 @@ body {
 }
 
 /* Skills styling */
-.skills {
-  background-color: khaki;
-
-  height: 50rem;
+.skills-section {
+  /* background-color: khaki; */
+  position: relative;
+  height: 40rem;
 }
+
+/* .skills-title {
+  background-color: #444444;
+  text-align: center;
+  height: 10rem;
+} */
 
 .skills-title {
   background-color: #444444;
   text-align: center;
-  height: 10rem;
+  width: 100%;
 }
+
 .technologies {
   display: flex;
-  background-color: lightpink;
+  /* background-color: lightpink; */
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
@@ -133,4 +139,41 @@ body {
   width: 10rem;
   height: 10rem;
   display: inline-block;
+}
+
+.divider {
+  width: 100%;
+}
+
+.main-divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Project Styling */
+.project-section {
+  background-color: mediumvioletred;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  align-content: left;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.project-item {
+  width: 40rem;
+  height: 40rem;
+}
+
+.project-img {
+  width: 40rem;
+  height: 20rem;
+  border-radius: 1rem;
 }
