@@ -159,21 +159,41 @@ body {
 
 .project-container {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  align-content: left;
-  margin-top: 5rem;
-  margin-left: 3rem;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
 }
 
 .project-item {
   width: 40rem;
   height: 40rem;
+  display: flex;
+}
+
+.project-item-1 {
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  align-self: flex-start;
+  margin: 5rem;
+  margin-right: 40rem;
+}
+
+.project-item-2 {
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  align-self: flex-end;
 }
 
 .project-img {
   width: 40rem;
   height: 20rem;
   border-radius: 1rem;
+}
+
+.project-info {
+  margin-left: 7rem;
 }
