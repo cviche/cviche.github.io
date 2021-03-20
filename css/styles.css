@@ -3,6 +3,10 @@
   border-style: border-box;
 }
 
+ul {
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,6 +31,14 @@ body {
   font-size: 2rem;
   line-height: 2.3rem;
 }
+.very-small {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+
+.vv-small {
+  font-size: 1rem;
+}
 
 .green {
   color: #91d990;
@@ -35,6 +47,14 @@ body {
 .no-margin {
   margin: 0;
   padding: 0;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.small-line-height {
+  line-height: 1rem;
 }
 
 /* Styling for the navbar */
@@ -62,13 +82,14 @@ body {
 }
 
 .main-header {
-  background-color: #848484;
+  background-color: #848484f0;
 }
 
 .logo {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   padding: 0.5rem;
+  margin-left: 1rem;
 }
 
 .logo:hover {
@@ -92,6 +113,17 @@ body {
   /* background-color: rgb(243, 44, 233); */
   width: 35rem;
   height: 25rem;
+  margin-left: 5rem;
+  display: inline-block;
+}
+
+.who {
+  font-size: 4rem;
+}
+
+.who::after {
+  content: "Full Stack Developer.";
+  color: #91d990;
 }
 
 .right-about {
@@ -155,40 +187,80 @@ body {
 
 /* Project Styling */
 .project-section {
-  background-color: mediumvioletred;
+  /* background-color: mediumvioletred; */
 }
 
 .project-container {
+  /* background-color: lightpink; */
   display: flex;
-  background-color: lightpink;
-  justify-content: space-evenly;
+  justify-content: space-evenly; /*NOTE: Clips to the left on small devices*/
   flex-wrap: wrap;
   align-items: center;
-  align-content: flex-start;
+  align-content: center;
+  flex-direction: column;
 }
 
 .project-item {
+  /* background-color: peru; */
   width: 40rem;
   height: 25rem;
   display: flex;
   align-self: flex-start; /* */
   margin: 5rem;
   margin-right: 40rem;
-  background-color: peru;
 }
 
 .project-img {
+  /* background-color: olive; */
   width: 40rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: olive;
+  border: 0.2rem solid rgb(255, 255, 255);
 }
 
 .project-info {
-  background-color: midnightblue;
-  margin-left: 7rem;
+  /* background-color: midnightblue; */
+  margin-left: 6.5rem;
+  margin-top: -1rem;
 }
 
 .project-desc {
-  width: 20rem;
+  width: 30rem;
+}
+
+.built-with {
+  word-spacing: 2rem;
+}
+
+.links-to-project {
+  /* background-color: grey; */
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-top: 0rem;
+}
+
+.ltp-button {
+  background-color: #91d990;
+  border-radius: 0.5rem;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  border: 2px solid rgb(0, 0, 0);
+  width: 4rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-top: -1rem;
+}
+
+.testflex {
+  background-color: violet;
+  flex-wrap: wrap;
+}
+
+.testinner {
+  background-color: yellow;
+  align-self: flex-end;
 }

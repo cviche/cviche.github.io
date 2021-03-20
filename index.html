@@ -2,11 +2,17 @@
 <!--TODO: Find a a smaller HTML Logo or Bigger CSS Logo-->
 <!DOCTYPE html>
 <html>
+  <!--Head Section-->
   <head>
     <title>Carlos Viche's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+   <!--Head Section End-->
+
+  <!--Body Section-->
   <body class="container">
+
+    <!--Navbar Section-->
     <header class="main-header">
       <a href="https://cviche.github.io/"
         ><img src="images/MyLogo.svg" class="logo"
@@ -21,24 +27,25 @@
         </ul>
       </nav>
     </header>
+    <!--Navbar Section End -->
+
     <!--About Section-->
     <section id="about" class="about-section">
       <div class="left-about">
-        <h1 class="large">
-          Hey there! My name is Carlos and I am a Full Stack Developer.
-        </h1>
+        <h1 class="large who">
+          Hey there! My name is Carlos and I am a </h1>
       </div>
       <div class="right-about">
-        <h2 class="small">About me</h2>
-        <p class="small">
+        <h2 class="ver-small">About me</h2>
+        <p class="very-small">
           I like to build web applications from the ground up and see how the
           full stack process occurs. My other interests are lifting weights and
           swing trading.
         </p>
-        <h2 class="small">Currently working with:</h2>
-        <p class="small green">React, HTML/CSS, PostgreSQL, JavaScript</p>
-        <h2 class="small">Future technologies I plan to learn:</h2>
-        <p class="small green">React Native, AWS, Docker</p>
+        <h2 class="ver-small">Currently working with:</h2>
+        <p class="very-small green">React, HTML/CSS, PostgreSQL, JavaScript</p>
+        <h2 class="very-small">Future technologies I plan to learn:</h2>
+        <p class="very-small green">React Native, AWS, Docker</p>
       </div>
     </section>
     <!--About Section End-->
@@ -86,16 +93,60 @@
         <div class="skills-title large">Projects</div>
         </div>
 
+        <!--Project 1 Container-->
         <div class="project-container">
            <div class="project-item">
+                <!--Project 1 Image-->
                <img src="images/Project1.PNG" class="project-img">
-               <span class="project-info"><h2><strong>Momentum</strong></h2>
-               <p class="project-desc">A web application that takes predicts the trend that a stock will go
-                   based on their history (previous earnings, current trend, financial statements, etc)
+
+               <!-- Project 1 Title-->
+               <span class="project-info"><h2 class="green"><strong>Momentum (WIP)</strong></h2>
+
+                <!-- Project 1 Description-->
+               <p class="project-desc very-small">A web application that predicts the trend that a stock will go
+                   based on their history (previous earnings, current trend, financial statements, etc).
                </p>
+
+               <!-- Project 1 Technolgies used-->
+               <p class="very-small built-with green"> React PostgreSQL Python</p>
+
+               <!-- Project 1 link to code/website-->
+               <nav>
+                 <ul class="links-to-project">
+                   <a href="https://www.github.com/cviche" class="no-underline"><li class="ltp-button">Code</li></a>
+                   <a href="https://www.github.com/cviche" class="no-underline"><li class="ltp-button">Site</li></a>
+                  </ul>
+               </nav>
+               </span>
+           </div>
+
+           <!--Project 2 Container-->
+           <div class="project-item">
+                <!--Project 2 Image-->
+               <img src="images/Project1.PNG" class="project-img">
+
+               <!-- Project 2 Title-->
+               <span class="project-info"><h2 class="green"><strong>Project 2 (WIP)</strong></h2>
+
+                <!-- Project 2 Description-->
+               <p class="project-desc very-small">Project 2 Description.
+               </p>
+
+               <!-- Project 2 Technolgies used-->
+               <p class="very-small built-with green"> React PostgreSQL Python</p>
+
+               <!-- Project 2 link to code/website-->
+               <nav>
+                 <ul class="links-to-project">
+                   <a href="https://www.github.com/cviche" class="no-underline"><li class="ltp-button">Code</li></a>
+                   <a href="https://www.github.com/cviche" class="no-underline"><li class="ltp-button">Site</li></a>
+                  </ul>
+               </nav>
                </span>
            </div>
         </div>
     </section>
+    <!--Project Section End-->
   </body>
+  <!--Body Section End-->
 </html>
