@@ -208,6 +208,7 @@ body {
   align-self: flex-start; /* */
   margin: 5rem;
   margin-right: 40rem;
+  margin-bottom: 0rem;
 }
 
 .project-img {
@@ -253,14 +254,4 @@ body {
   padding: 0.5rem;
   font-weight: bold;
   margin-top: -1rem;
-}
-
-.testflex {
-  background-color: violet;
-  flex-wrap: wrap;
-}
-
-.testinner {
-  background-color: yellow;
-  align-self: flex-end;
 }
