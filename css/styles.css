@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 * {
   border-style: border-box;
 }
@@ -7,7 +8,7 @@ body {
   padding: 0;
   color: white;
   background-color: 5f5f5f;
-  font-family: "Questrial-Regular";
+  font-family: "Questrial";
 }
 
 .container {
@@ -168,32 +169,26 @@ body {
 
 .project-item {
   width: 40rem;
-  height: 40rem;
+  height: 25rem;
   display: flex;
-}
-
-.project-item-1 {
-  width: 40rem;
-  height: 40rem;
-  display: flex;
-  align-self: flex-start;
+  align-self: flex-start; /* */
   margin: 5rem;
   margin-right: 40rem;
-}
-
-.project-item-2 {
-  width: 40rem;
-  height: 40rem;
-  display: flex;
-  align-self: flex-end;
+  background-color: peru;
 }
 
 .project-img {
   width: 40rem;
   height: 20rem;
   border-radius: 1rem;
+  background-color: olive;
 }
 
 .project-info {
+  background-color: midnightblue;
   margin-left: 7rem;
+}
+
+.project-desc {
+  width: 20rem;
 }
