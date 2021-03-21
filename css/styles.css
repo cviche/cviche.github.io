@@ -255,3 +255,30 @@ body {
   font-weight: bold;
   margin-top: -1rem;
 }
+
+/*Contact Styling */
+
+.contact-section {
+  /* background-color: aqua; */
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: #91d990;
+  padding: 2rem;
+}
+
+.contact-logo {
+  border-radius: 0.5rem;
+  background-color: #43df41;
+  width: 4rem;
+  /* background-color: black; */
+}
+
+.contact-text {
+  color: #444444;
+  margin-left: -4rem;
+}
