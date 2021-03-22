@@ -273,9 +273,13 @@ body {
 
 .contact-logo {
   border-radius: 0.5rem;
-  background-color: #43df41;
+  /* background-color: #838383; */
   width: 4rem;
   /* background-color: black; */
+}
+
+.contact-logo:hover {
+  background-color: #4de059;
 }
 
 .contact-text {
