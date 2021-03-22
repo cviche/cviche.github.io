@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+/* General Styling for the website */
+
 * {
   border-style: border-box;
 }
@@ -65,6 +68,8 @@ body {
   padding: 0.3rem;
   border-radius: 0.4rem;
   color: white;
+  /* font-weight: bold; */
+  /* letter-spacing: 0.05rem; */
 }
 .nav-element:hover {
   background-color: #949393;
@@ -82,24 +87,26 @@ body {
 }
 
 .main-header {
-  background-color: #848484f0;
+  background-color: #91d990;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   width: 4rem;
   height: 4rem;
-  padding: 0.5rem;
   margin-left: 1rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 .logo:hover {
   fill: mediumslateblue;
-}
-
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* About me styling */
@@ -107,6 +114,7 @@ body {
   /* background-color: teal; */
   display: flex;
   justify-content: center;
+  margin-top: 7rem;
 }
 
 .left-about {
