@@ -65,14 +65,14 @@ body {
 .nav-element {
   text-decoration: none;
   border: 0.1rem solid white;
-  padding: 0.3rem;
+  padding: 0.4rem;
   border-radius: 0.4rem;
   color: white;
   /* font-weight: bold; */
   /* letter-spacing: 0.05rem; */
 }
 .nav-element:hover {
-  background-color: #949393;
+  background-color: #76d674;
 }
 
 .header-nav a {
