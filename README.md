@@ -6,6 +6,6 @@ The website can be found here: https://cviche.github.io/
 
 # Tech Stack
 
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CSS3
+- JavaScript
