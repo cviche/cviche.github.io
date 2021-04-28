@@ -292,7 +292,7 @@ body {
 }
 
 .contact-item {
-  background-color: #ff0;
+  /* background-color: #ff0; */
   text-align: center;
   font-size: 1.5rem;
   margin-left: 1rem;
@@ -318,5 +318,5 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   /* width: 80rem; */
-  background-color: #fff;
+  /* background-color: #fff; */
 }
