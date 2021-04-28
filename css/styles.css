@@ -20,6 +20,7 @@ body {
 
 .container {
   background-color: #5d5b5b;
+  width: 100%;
 }
 
 .large {
@@ -113,15 +114,17 @@ body {
 .about-section {
   /* background-color: teal; */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 7rem;
+  width: 100%;
 }
 
 .left-about {
   /* background-color: rgb(243, 44, 233); */
   width: 35rem;
   height: 25rem;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   display: inline-block;
 }
 
@@ -137,15 +140,17 @@ body {
 .right-about {
   /* background-color: rgb(183, 243, 44); */
   width: 35rem;
-  height: 33rem;
-  margin-left: 4rem;
+  /* height: 33rem; */
+  /* margin-left: 4rem; */
 }
 
 /* Skills styling */
 .skills-section {
   /* background-color: khaki; */
+  width: 100%;
+  /* h100r */
   position: relative;
-  height: 40rem;
+  /* height: 40rem; */
 }
 
 /* .skills-title {
@@ -184,6 +189,7 @@ body {
 
 .divider {
   width: 100%;
+  background-color: #fff;
 }
 
 .main-divider {
@@ -191,6 +197,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 /* Project Styling */
@@ -201,36 +208,40 @@ body {
 .project-container {
   /* background-color: lightpink; */
   display: flex;
-  justify-content: space-evenly; /*NOTE: Clips to the left on small devices*/
+  justify-content: center; /*NOTE: Clips to the left on small devices*/
   flex-wrap: wrap;
   align-items: center;
-  align-content: center;
+  /* align-content: center; */
   flex-direction: column;
 }
 
 .project-item {
   /* background-color: peru; */
-  width: 40rem;
-  height: 25rem;
+  /* width: 80rem; */
+  /* height: 25rem; */
   display: flex;
-  align-self: flex-start; /* */
-  margin: 5rem;
-  margin-right: 40rem;
-  margin-bottom: 0rem;
+  align-self: center; /* */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 5rem; */
+  /* margin-right: 40rem; */
+  margin-bottom: 4rem;
 }
 
 .project-img {
   /* background-color: olive; */
-  width: 40rem;
+  /* width: 40rem; */
   height: 20rem;
   border-radius: 1rem;
   border: 0.2rem solid rgb(255, 255, 255);
+  object-fit: contain;
+  margin-top: 2rem;
 }
 
 .project-info {
   /* background-color: midnightblue; */
   margin-left: 6.5rem;
-  margin-top: -1rem;
+  margin-top: 2rem;
 }
 
 .project-desc {
@@ -264,6 +275,10 @@ body {
   margin-top: -1rem;
 }
 
+.ltp-button:hover {
+  background-color: #57dc55;
+}
+
 /*Contact Styling */
 
 .contact-container {
@@ -277,9 +292,10 @@ body {
 }
 
 .contact-item {
-  /* background-color: #ff0; */
+  background-color: #ff0;
   text-align: center;
   font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 .contact-logo {
@@ -295,4 +311,12 @@ body {
 .contact-text {
   /* background-color: aqua; */
   color: #444444;
+}
+
+.contact-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 80rem; */
+  background-color: #fff;
 }
