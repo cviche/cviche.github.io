@@ -121,15 +121,13 @@ body {
 }
 
 .left-about {
-  /* background-color: rgb(243, 44, 233); */
   width: 35rem;
-  height: 25rem;
-  /* margin-left: 5rem; */
+  height: auto;
   display: inline-block;
 }
 
 .who {
-  font-size: 4rem;
+  font-size: 5vw;
 }
 
 .who::after {
@@ -319,4 +317,9 @@ body {
   flex-wrap: wrap;
   /* width: 80rem; */
   /* background-color: #fff; */
+}
+
+/* CSS Added in: 2/6/22 */
+.align-center {
+  text-align: center;
 }
