@@ -230,9 +230,9 @@ body {
 .project-img {
   /* background-color: olive; */
   /* width: 40rem; */
+  width: 50vw;
   height: 20rem;
-  border-radius: 1rem;
-  border: 0.2rem solid rgb(255, 255, 255);
+  /* border-radius: 1.5rem; */
   object-fit: contain;
   margin-top: 2rem;
 }
